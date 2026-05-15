@@ -20,7 +20,7 @@ print("media final é:", media)
 
             
 '''
-
+#biblioteca que servirá de import
 def obternota(nomenota):
 
     while True:
@@ -33,8 +33,11 @@ def obternota(nomenota):
         else:
             return nota
 
+
+#arquivo que importará a biblioteca
 m1 = obternota("M1")
 m2 = obternota("M2")
 
 media = (m1 + (m2 * 2)) / 3
+
 print(f"A média final é {media:.3f}") #3 casas decimais pos ponto
