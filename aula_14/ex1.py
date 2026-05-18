@@ -1,11 +1,13 @@
-matriz = []
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
-for i in range(3):
-    linha = []
-    for j in range(3):
-        linha.append(int(input("Digite um valor: ")))
-    matriz.append(linha)
+x = matriz[0][0]  
+z = matriz[1][1]   
 
-for i in range(3):
-    for j in range(3):
-        print(matriz[i][j])
+print("Elemento central:", z)
+
+for linha in matriz:
+    print(linha)
