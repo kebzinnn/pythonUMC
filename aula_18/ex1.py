@@ -1,14 +1,9 @@
 # 1) Elaborar um programa para adicionar um novo par chave-valor ao dicionário, modificar um valor existente e 
 # acessar uma chave específica. 
 
-dados = {
-    "nome": "Sandro",
-    "idade": 30,
-    "cidade":"Sao Paulo",
-    "estado":"Sao Paulo"
+from dados import dados
 
-}
-
+print(dados)
 chave, valor = input("Digite uma chave-valor para adicionar ou modificar (** valor ** chave) **: ").split()
 
 dados[chave] = valor

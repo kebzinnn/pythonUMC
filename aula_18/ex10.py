@@ -17,4 +17,3 @@ listak = list(listak)
 listav = list(listav)
 
 print(f"Lista de chaves: {listak} \nLista de valores: {listav}")
-#aa

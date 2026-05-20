@@ -1,5 +1,7 @@
 #4) Elaborar um programa para renomear uma chave existente do dicionário, preservando seu valor associado e 
 # mantendo o restante do dicionário inalterado. Exibir o novo dicionário. 
+
+from dados import dicionario
 dados = {
     "nome": "Sandro",
     "idade": 30,

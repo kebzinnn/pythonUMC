@@ -1,0 +1,1 @@
+# 1) Elaborar um programa que armazene em um dicionário o nome de vários medicamentos como chave e a quantidade disponível em estoque como valor. O programa deve permitir consultar um medicamento\n# e informar se ele est� dispon�vel ou em falta.
